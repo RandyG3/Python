@@ -1,5 +1,2 @@
 print("hello world")
-print("another line")
-print("testing for GIT")
-print("test 2")
-print("test 3")
+print("hello Randy")

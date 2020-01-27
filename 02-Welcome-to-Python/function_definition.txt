@@ -1,0 +1,18 @@
+Function
+    A sequence if one or more steps, a procedure, a
+        routine, a series of instructions.
+    A collection of organized Python code that can be reused.
+
+Two Types of Functions
+    Built-in
+        Print, len, sum, etc.
+    Custom Functions
+
+Inputs and Outputs
+    Similar to a cooking recipe
+    Accept I/O
+    ingredients(input) = arguments
+    Output is the return value
+
+    ingredients > recipe > finished food
+    arguments > Function > return values

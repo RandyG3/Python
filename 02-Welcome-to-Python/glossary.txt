@@ -1,0 +1,14 @@
+Parameter:
+    A name for an expected argument to a function
+
+Argument:
+    The actual value passed as an input to a function
+
+Sequential Argument:
+    An argument passed Sequentially, in order
+
+Keyword Argument:
+    An argument whose Parameter name is explicitly written out  
+
+Default Argument:
+    Fallback value provided to a parameter if the user does not specify one      
