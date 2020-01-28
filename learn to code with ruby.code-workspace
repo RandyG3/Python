@@ -3,9 +3,5 @@
 		{
 			"path": "."
 		}
-	],
-	"settings": {
-		"files.autoSave": "onFocusChange",
-		"workbench.panel.defaultLocation": "right"
-	}
+	]
 }
