@@ -10,5 +10,8 @@ print("AbCdE".swapcase())
 # method chaining - make the name proper case
 print("RANDY GALINAT".lower().title())
 
-story = story.title() + "0"
+story = story.title()
 print(story)
+
+print("lord of lies".title())
+print("lord of lies".title().swapcase())
