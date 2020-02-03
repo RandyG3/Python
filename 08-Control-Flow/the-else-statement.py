@@ -1,7 +1,7 @@
-# if 20 > 15:
-#     print("True")
-# else:
-#     print("False")    
+if 20 > 67:
+    print("True")
+else:
+    print("False")
 
 value = int(input("Enter a random number: "))
 

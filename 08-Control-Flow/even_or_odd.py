@@ -14,6 +14,7 @@ def even_or_odd(intnum):
     else:
         return "odd"    
 
+
 print(even_or_odd(2))
 print(even_or_odd(0))
 print(even_or_odd(13))
