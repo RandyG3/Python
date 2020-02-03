@@ -7,3 +7,15 @@
 # truthy_or_falsy(5) => "The value 5 is truthy"
 # truthy_or_falsy("Hello") => "The value Hello is truthy"
 # truthy_or_falsy("") => "The value  is falsy"
+
+
+def truthy_or_falsy(sing_arg):
+    if sing_arg:
+        return "The value " + str(sing_arg) + " is truthy"
+    else:
+        return "The value " + str(sing_arg) + " is falsy"
+    
+print(truthy_or_falsy(0))
+print(truthy_or_falsy(5))
+print(truthy_or_falsy("Hello"))
+print(truthy_or_falsy(""))

@@ -8,15 +8,13 @@
 # even_or_odd(9) => "odd"
 
 
-# def even_or_odd(intnum):
-#     even_odd = "Odd"
-#     if intnum % 2:
-#         even_odd = "Even"
-#         return even_odd
+def even_or_odd(intnum):
+    if intnum % 2 == 0:
+        return "even"
+    else:
+        return "odd"    
 
-#print(even_or_odd(2))        
-
-if 2 % 2:
-    print("True")
-
-print(2 % 2)    
+print(even_or_odd(2))
+print(even_or_odd(0))
+print(even_or_odd(13))
+print(even_or_odd(9))
