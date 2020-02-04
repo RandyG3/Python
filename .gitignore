@@ -7,5 +7,5 @@
 # Ignore the following directories
 .idea/
 .vscode/
-.vscodepc/
+.vscodePC/
 venv/
