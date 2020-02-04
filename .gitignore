@@ -3,8 +3,9 @@
 
 # Ignore specific files
 .DS_Store
-.idea
 
 # Ignore the following directories
+.idea/
 .vscode/
 .vscodepc/
+venv/
