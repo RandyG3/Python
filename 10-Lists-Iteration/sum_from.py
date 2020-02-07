@@ -13,8 +13,7 @@ def sum_from(num1, num2):
     sum_all = 0
     for num1 in range(num1, (num2 + 1)):
         sum_all += num1
-
-     return sum_all
+    return sum_all
 
 print(sum_from(1, 2))
 print(sum_from(1, 5))

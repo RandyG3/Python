@@ -16,3 +16,7 @@ def is_long(test_list):
         return True
     else:
         return False
+
+
+print(is_long([1, 2, 3, 4, 5, 6]))
+print(is_long([1, 2, 3, 4, 5]))
