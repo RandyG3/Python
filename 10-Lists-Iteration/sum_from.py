@@ -15,6 +15,7 @@ def sum_from(num1, num2):
         sum_all += num1
     return sum_all
 
+
 print(sum_from(1, 2))
 print(sum_from(1, 5))
 print(sum_from(3, 8))
