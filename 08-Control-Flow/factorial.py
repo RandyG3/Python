@@ -13,19 +13,30 @@
 # factorial(5) => 120
 
 
-def count_down_from(num):
-    start = num
-    while start > 0:
-        print(start * num)
-        start -= 1
+# def count_down_from(num):
+#     start = num
+#     while start > 0:
+#         print(start * num)
+#         start -= 1
 
 
-def factorial(num):
-    loop = 1
-    if num == 0 or num == 1:
-        return num
-    elif num > loop:
-        return num * factorial(num - 1)
+# def factorial(num):
+#     loop = 1
+#     if num == 0 or num == 1:
+#         return num
+#     elif num > loop:
+#         return num * factorial(num - 1)
+
+# I didn't use recursion - this is from one of the other
+# students
+
+
+def factorial(input_number):
+    comparitor = 1
+    if input_number == 1 or input_number == 0:
+        return input_number
+    elif input_number > comparitor:
+        return input_number * factorial(input_number -1)
 
 
 print(factorial(1))
