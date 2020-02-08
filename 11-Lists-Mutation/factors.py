@@ -8,13 +8,12 @@
 # factors(64) => [1, 2, 4, 8, 16, 32, 64]
 
 
-def factors(num):
-    loop = 1
-     if num == 0 or num == 1:
-        return num
-     elif num > loop:
-        return num * factorial(num - 1)
-
+def factors(numbers):
+    number = []
+    for i in range(1, numbers + 1):
+        if numbers % i == 0:
+            number.append(i)
+    return number
 
 print(factors(1))
 print(factors(2))
