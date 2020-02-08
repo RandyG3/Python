@@ -11,13 +11,19 @@
 def factors(numbers):
     number = []
     for i in range(1, numbers + 1):
-        if i % 2 == 0:
-    #     numbers.append(number)
-    # return number
-            print(i)
+        if numbers % i == 0:
+            number.append(i)
+    return number
 
 
 print(factors(1))
 print(factors(2))
 print(factors(10))
 print(factors(64))
+
+def factors2(numbers):
+    for i in range(1, numbers + 1):
+        print(numbers, " Divided by", i, "is", numbers % i)
+
+
+print(factors2(64))
