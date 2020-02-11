@@ -1,0 +1,47 @@
+Removing Elements from a List
+delete_all.py
+Quiz 25
+
+The code I have below works fine for all the examples except all 4's. In that case I get an index error. 
+I've tried several times to fix this one, but still get the error. Please help! Thanks in advance!!
+
+
+    def delete_all(strings, target):
+        i = 0
+        while target in (strings):
+            del strings[i]
+            i += 1
+     
+        return strings
+
+2 replies
+Boris Paskhaver
+Boris — InstructorAnswer
+17 hours ago
+
+
+Hi Randy,
+
+The while statement will return True if the target string is found anywhere in the string lists.
+
+However, a True evaluation does not guarantee that the string you're looking for is necessarily found 
+at the index currently represented by i.
+
+Here's a simple example that will cause an error:
+
+    values = ["a", "b"]
+    delete_all(values, "b")
+    print(values)
+
+The while statement will return True but your code will delete the value at index position 0.
+
+Is there a method you can think of on a list that will delete an element for you?
+
+- Boris
+
+Hi Boris,
+Thanks for the quick reply and explanation of the while statement.
+What a difference a day makes! Took a fresh look at the methods and quite surprised how quickly I was able to complete the assignment!
+
+Thanks!
+Randy

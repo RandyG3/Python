@@ -10,12 +10,9 @@
 def delete_all(strings, target):
     i = 0
     while target in strings:
-        if strings[i] == target:
-            del strings[i]
+        strings.remove(target)
         i += 1
-    #
-    # if len(strings) == 1 and target == strings:
-    #     print("Only 1 element left")
+
     return strings
 
 
