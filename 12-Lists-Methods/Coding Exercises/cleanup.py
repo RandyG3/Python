@@ -7,19 +7,22 @@
 # cleanup(["cat", " ", "er", "", "pillar"]) => "cat er pillar"
 # cleanup(["", "", " "]) => ""
 
+# The solution came from another student with a little cleanup from me
 
-def cleanup(strings):
-    new_string = ""
-    str1 = ' '.join(strings)
-    words = str1.split(" ")
-    for word in words:
-        if len(word) >= 1:
-            new_string += word
-    print(new_string)
 
-    # final_string = (" ".join(words))
-    # print(len(final_string))
-    # print(final_string)
+def cleanup(strings_list):
+    cleanup_join = ""
+    for StrL in strings_list:
+        if StrL == " " or "":
+            strings_list.remove(" ")
+            strings_list.remove("")
+            cleanup_join = " ".join(strings_list)
+        else:
+            cleanup_join = " ".join(strings_list)
+    return cleanup_join
+
+
+
 
 
 print(cleanup(["cat", "er", "pillar"]))

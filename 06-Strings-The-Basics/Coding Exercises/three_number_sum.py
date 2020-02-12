@@ -17,6 +17,7 @@ def three_number_sum(nums):
     return num1 + num2 + num3
     # return int(nums[0]) + int(nums[1]) + int(nums[2])
 
+
 print(three_number_sum("123"))
 print(three_number_sum("567"))
 print(three_number_sum("444"))

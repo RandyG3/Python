@@ -16,7 +16,7 @@
 mad_libs = "{name} laughed at the {adjective} {noun}."
 
 # args by keywords, now order doesn't matter
-#print(mad_libs.format(name = "Bobby", adjective = "green", noun = "alien"))
+# print(mad_libs.format(name = "Bobby", adjective = "green", noun = "alien"))
 
 name = input("Enter a name: ")
 adjective = input("Enter an adjective: ")

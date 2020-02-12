@@ -3,7 +3,7 @@
 #
 # EXAMPLES:
 # last_five_characters("dynasty") => "nasty"
-# last_fiee_characters("empire") => "mpire"
+# last_five_characters("empire") => "mpire"
 
 
 def last_five_characters(chars):

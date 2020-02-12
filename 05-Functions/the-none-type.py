@@ -1,8 +1,10 @@
-a = None # nothingness 'NoneType'
+a = None  # nothingness 'NoneType'
 print(type(a))
 
-def subtract(a, b):
-    print( a - b)
 
-result = subtract(5, 3)
+def subtract(a, b):
+    print(a - b)
+    result = subtract(5, 3)
+
+
 print(result)

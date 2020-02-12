@@ -20,4 +20,4 @@ print(address[:10]) # same as 0:10
 print(address[:23])
 print(address[:-3])
 
-print(address[:]) # made a copy
+print(address[:])  # made a copy

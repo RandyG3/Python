@@ -16,6 +16,7 @@ def vowel_count(word):
             word.count("o") + 
             word.count("u"))
 
+
 print(vowel_count("estate"))
 print(vowel_count("helicopter"))
 print(vowel_count("shh"))

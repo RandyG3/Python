@@ -4,8 +4,10 @@
 # If the user does not provide any arguments, all three parameters
 #   should have default arguments of 1.
 
+
 def multiplier(a=1, b=1, c=1):
     return a * b * c
+
 
 print(multiplier(2, 3, 4))
 print(multiplier())

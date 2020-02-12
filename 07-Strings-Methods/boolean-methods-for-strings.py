@@ -24,4 +24,5 @@ print()
 print(" ".isspace())
 print("   ".isspace())
 print("    ".isspace())
-print(" K ".isspace()) # FII
+print(" K ".isspace())  # FII
+

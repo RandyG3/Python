@@ -5,8 +5,10 @@
 # If the user does not pass in arguments, both arguments
 #   should default to an empty string.
 
+
 def string_adder(a="", b=""):
     return a + " " + b
+
 
 print(string_adder("Randy", "Russell"))
 print(string_adder())

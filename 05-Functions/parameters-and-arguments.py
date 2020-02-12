@@ -3,12 +3,14 @@ def output_text():  # this is minimum for def definition
     print("It's nice to meet you")
     print("Have an excellent day programming!")
 
+
 def p(text):
     print(text)
 
 
 def add(a, b):
     print("the sum of", a, "and", b, "is", a + b)
+
 
 output_text()
 print("")

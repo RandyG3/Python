@@ -6,8 +6,9 @@
 # long_word("Python") => False
 # long_word("magnificent") => True
 
+
 def long_word(word):
-        return (len(word) > 7)
+    return len(word) > 7
 
 
 print(long_word("Python"))

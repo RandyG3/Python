@@ -3,5 +3,6 @@ def output_text(): # this is minimum for def definition
     print("It's nice to meet you")
     print("Have an excellent day programming!")
 
+
 output_text()
 output_text()
