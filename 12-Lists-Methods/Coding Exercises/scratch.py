@@ -17,5 +17,13 @@ for el in lotto:
     for value in el:
         print(value)
 
-list = [1, 1, 3, 1, 1]
-print(.issp
+m_list = [1,1,2,2,3,3,3,4,4,4,4]
+unq_list = list(set(m_list))
+print(unq_list)
+
+list_nums = [1, 2, 3], [1, 2]
+# unq_list = list(set(list_nums))
+# print(unq_list)
+
+for idx, val in enumerate(list_nums):
+    print(idx, val)

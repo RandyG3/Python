@@ -4,7 +4,7 @@ dinners = ["Steak", "Meatballs", "Pasta"]
 
 # print(zip(breakfasts,lunches,dinners))  # gives the object location in memory
 # print(type(zip(breakfasts,lunches,dinners)))
-# print(list(zip(breakfasts,lunches,dinners)))
+print(list(zip(breakfasts,lunches,dinners)))
 
 for breakfast, lunch, dinner in zip(breakfasts, lunches, dinners):
     print(f"My meal for today was {breakfast}, {lunch}, and {dinner}")
