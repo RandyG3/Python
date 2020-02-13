@@ -25,5 +25,6 @@ list_nums = [1, 2, 3], [1, 2]
 # unq_list = list(set(list_nums))
 # print(unq_list)
 
-for idx, val in enumerate(list_nums):
-    print(idx, val)
+
+def destroy_elements(lista, listb):
+    return [el for el in lista if # Fill in this condition]
