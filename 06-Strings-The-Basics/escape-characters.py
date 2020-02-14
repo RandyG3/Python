@@ -9,10 +9,10 @@ print('\'To be or not to be\', said Hamlet')
 print("let's print a backslash: \\")
 
 file_name = "C:\news\travel"
-print(file_name) # whoops
+print(file_name)  # whoops
 # treat as raw data
 file_name = r"C:\news\travel"   
-print(file_name) # now correct
+print(file_name)  # now correct
 
 some_random_number = 5
 some_obscure_calculation = 25

@@ -1,0 +1,1 @@
+print(list(filter(lambda val: val.islower(), ["guybrush", "Threepwood", "LeChuck", "elaine"])))
