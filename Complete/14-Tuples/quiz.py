@@ -5,5 +5,5 @@ def larger_num(one, two):
         return two
 
 
-values = [5, 3]            # this passed in a single list as 'one'
+values = [5, 3]             # Need to pass these in as *values
 print(larger_num(values))
