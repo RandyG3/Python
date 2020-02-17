@@ -1,0 +1,17 @@
+Dictionary
+    An unordered data structure for declaring relationships between objects
+    A mutable data structure consisting of pairs of keys and values
+    A key is an object that serves as a unique identifier for a value
+    A Value is any python object
+
+Keys vs Values
+    Keys are unique, values can be duplicates
+    Keys must be immutable types (strings, integers, floats, tuples). Values
+        can be any data type
+
+Dictionaries vs Lists
+    Both lists and dictionaries are mutable. A dictionary can have key-value
+        pairs added, removed, or modified.
+    Unlike a list, a dictionary is not ordered. A dictionary is used for
+        mappings while a list is used for order.
+
