@@ -14,4 +14,4 @@ def greater_sum(list1, list2):
 
 print(greater_sum([1, 2, 3], [1, 2, 4]))
 print(greater_sum([4, 5], [2, 3, 6]))
-print(greater_sum([1], []) )
+print(greater_sum([1], []))
