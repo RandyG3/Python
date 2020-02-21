@@ -13,21 +13,21 @@
 #
 # common_elements(my_dict) => ["A", "D"]
 
-
-def common_elements(in_dict):
-    new_list = []
-    for key_char, value in in_dict.items():
-        print(key_char, value)
-        for char in in_dict:
-            print(char, in_dict)
-    return new_list
-
-
 my_dict = {
   "A": "K",
   "B": "D",
   "C": "A",
   "D": "Z"
 }
+
+
+def common_elements(my_dict):
+    new_list = []
+    for key_char in my_dict.keys():
+        for value in my_dict.values():
+            if key_char == value:
+                new_list.append(key_char)
+    return new_list
+
 
 print(common_elements(my_dict))
